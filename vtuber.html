@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="getQuery.js"></script>
+    <script src="index.js"></script>
+    <title>Vtuber Brasileiro</title>
+</head>
+<body >
+    <header>
+        Vtubers Brasileiros
+    </header>
+
+    <main id="app" >
+        <article v-if="vtuber != undefined">
+            <h2>{{vtuber.name}}</h2>
+            <p>{{vtuber.description}}</p>
+
+            <iframe width="560" height="315" :src="vtuber.video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <nav>
+                <a v-for="(link, index) in vtuber.links" :href="link" target="_blank" rel="noopener noreferrer">
+                    {{index}}
+                </a>
+            </nav>
+        </article>
+        <article v-else>Não encontrado</article>
+    </main>
+    <a href="index.html">Página principal</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.47/dist/vue.global.js"></script>
+    <script>
+        const data = getQuery(document.URL)
+        const app = Vue.createApp({
+            data(){
+                return {
+                    vtuber: data != 2 && data != 3 & data.vtuber !== undefined ? vtubers[data.vtuber] : undefined
+                }
+            }
+        })
+    
+        app.mount("#app")
+    </script>
+</body>
+</html>
