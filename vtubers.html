@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vtubers.css">
+    <script src="js/index.js"></script>
+    <title>Vtubers</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="vtuber.html">Vtubers</a>
+            <a href="about.html">Sobre</a>
+        </nav>
+    </header>
+
+    <main id="app">
+        <a v-for="vtuber in vtubers_list" :href="'vtuber.html?vtuber=' + vtuber.id">
+            <div :style="{ 'background-image': `url(imgs/${vtuber.id}.png)`}">
+                <h1>{{vtuber.name}}</h1>
+            </div>
+        </a>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.47/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data(){
+                return {
+                    vtubers_list: vtubers
+                }
+            }
+        })
+
+        app.mount("#app")
+    </script>
+</body>
+</html>

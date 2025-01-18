@@ -154,7 +154,7 @@ var vtubers = {
     "jesse_llun": {
         "id": "jesse_llun",
         "name": "Jesse Llun",
-        "description": "Uma estrela mágica que ganhou vida de um desejo, e veio pra terra transformar os desejos das pessoas em realidade... ou quase isso!",
+        "description": "Uma estrela mágica que ganhou vida de um desejo, e veio pra terra transformar os desejos das pessoas em realidade, e ajudar a aliviar o peso da solidão da vida.",
         "links":{
             "youtube": "https://www.youtube.com/@JesseLlum",
             "x": "https://x.com/JesseLlum",

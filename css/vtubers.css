@@ -1,0 +1,41 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 6px;
+    border: 1px solid #00000074;
+    transition: .3s;
+}
+
+main div:hover{
+    scale: 1.03;
+}
+
+main h1{
+    background-color: #00000074;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000000;
+    width: 100%;
+    padding: 5px 0px;
+}
+

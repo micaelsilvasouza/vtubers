@@ -1,27 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-header{
-    background-color: #070000de;
-    text-align: center;
-    padding: 10px;
-}
-
-header a{
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 5px;
-    transition-duration: .3s;
-}
-
-header a:hover{
-    color: gray;
-}
-
 article{
     padding: 20px;
 }
