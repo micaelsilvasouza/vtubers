@@ -41,8 +41,8 @@
         "video": "https://www.youtube.com/embed/CZrNAYM0frw?si=2pYCnrVDl--yX_-j"
     }, 
 
-    "mii_reis": {
-        "id": "mii_reis",
+    "mii-reis": {
+        "id": "mii-reis",
         "name": "Mii Reis",
         "description": "Uma híbrida de humano com partes felinas, material de uma pesquisa de inteligencias artificiais, que ser tornou uma SEO, e agora está em busca de talentos excepcionais.",
         "links": {
@@ -55,8 +55,8 @@
         "video": "https://www.youtube.com/embed/Dho3MsiQuI0?si=ijxURzsZyeafXCtN"
     }, 
 
-    "raviel_karin": {
-        "id": "raviel_karin",
+    "raviel-karin": {
+        "id": "raviel-karin",
         "name": "Raviel Karin",
         "description": "Um explorador que entrou nas ruinas do tumulo de um faraó, encontrando um colar e morrendo por uma armadilha, fazendo um acordo com Anúbis, voltando a vida em troca de nunca tirar o colar.",
         "links": {
@@ -69,8 +69,8 @@
         "video": "https://www.youtube.com/embed/6qA1VeCdgUw?si=L1gNn88GI1MemW3l"
     },
 
-    "eveline_teach":{
-        "id": "eveline_teach",
+    "eveline-teach":{
+        "id": "eveline-teach",
         "name": "Eveline Teach",
         "description": "Uma ex-deliquente que ao invadiu um museu para pegar um colar, descobriu era decendentes de piratas, e assim decidiu seguiria os passos de seus ancestrais e ser uma pirata.",
         "links":{
@@ -111,8 +111,8 @@
         "video": "https://www.youtube.com/embed/qM0O-s7p_Dw?si=L7CFO7jpE9GKGBK0"
     },
 
-    "emi_kotone": {
-        "id": "emi_kotone",
+    "emi-kotone": {
+        "id": "emi-kotone",
         "name": "Emi Kotone",
         "description": "Guardiã do Frasco da Virtude, manisfestada na forma de uma gata-humana, responsável por evitar que o frasco no coração de cada pessoa fique vazio, para que não fiquem cheias de dor e desespero.",
         "links": {
@@ -127,7 +127,7 @@
 
     "torajo": {
         "id": "torajo",
-        "name": "Torajo Jovem",
+        "name": "Torajo",
         "description": "Vindo de um planeta chamado Verade, no qual todos os habitantes são frutas humanoides, é dono de um canal grande onde com a ajuda do 'Algorithomus', a energia do planeta, seus videos são compartilhados.",
         "links": {
             "youtube": "https://www.youtube.com/@Torajo",
@@ -138,8 +138,8 @@
         "video": "https://www.youtube.com/embed/mvar3kgPKyU?si=W_DP5IFDqKxHuYFZ"
     },
 
-    "jake_ito":{
-        "id": "jake_ito",
+    "jake-ito":{
+        "id": "jake-ito",
         "name": "Jake Ito",
         "description": "Um inventor de uma Londres alternativa Steampunk, almeja salvar seu mundo das péssimas condições ambientais, através de uma oscilação no espaço-tempo pode realizar a conexão que ele tanto buscou.",
         "links": {
@@ -151,8 +151,8 @@
         "video": "https://www.youtube.com/embed/0OmVK-l9-Yw?si=ub4BbAPpmlVXfuRw"
     },
 
-    "jesse_llun": {
-        "id": "jesse_llun",
+    "jesse-llun": {
+        "id": "jesse-llun",
         "name": "Jesse Llun",
         "description": "Uma estrela mágica que ganhou vida de um desejo, e veio pra terra transformar os desejos das pessoas em realidade, e ajudar a aliviar o peso da solidão da vida.",
         "links":{
@@ -163,5 +163,4 @@
         },
         "video": "https://www.youtube.com/embed/KCkaZ_r9AKE?si=lLu7pdHQlvakyKUX"
     }
-
 }
