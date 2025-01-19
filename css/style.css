@@ -3,14 +3,15 @@
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
+    text-align: center;
 }
 
 body{
-    background-color: #c1c1c1;
+    background-color: white;
 }
 
 header{
-    background-color: #070000de;
+    background-color: #000000f1;
     text-align: center;
     padding: 10px;
 }
@@ -25,4 +26,9 @@ header a{
 
 header a:hover{
     color: gray;
+}
+
+p{
+    font-size: 1.3em;
+    font-weight: 700px;
 }

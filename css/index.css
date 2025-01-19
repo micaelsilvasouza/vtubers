@@ -1,0 +1,64 @@
+section{
+    text-align: center;
+}
+
+section div{
+    padding: 20px 0px;
+}
+
+section:first-of-type{
+    display: flex;
+    background-image: url(../imgs/image-exemple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+
+section:first-of-type div{
+    background-color: #000000f2;
+    color: white;
+    height: 100%;
+    width: 40dvw;
+    padding: 30px 0px;
+}
+
+section h1{
+    font-size: 2em;
+    padding: 20px;
+}
+
+section p{
+    font-size: 1em;
+    padding: 10px;
+}
+
+section img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+section a{
+    color: #000000f2;
+}
+
+section a:hover{
+    color: #000000c2;
+}
+
+section a.bt-link{
+    display: block;
+    background-color: #000000f2;
+    color: white;
+    text-decoration: none;
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    transition-duration: .3s;
+}
+
+
+section a.bt-link:hover{
+    background-color: #000000c2;
+}

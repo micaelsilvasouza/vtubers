@@ -1,4 +1,6 @@
-main{
+
+
+main article{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -15,6 +17,7 @@ main div{
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    background-color: #000000f1;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,11 +28,12 @@ main div{
     transition: .3s;
 }
 
+
 main div:hover{
     scale: 1.03;
 }
 
-main h1{
+main div h1{
     background-color: #00000074;
     color: white;
     font-size: 1em;

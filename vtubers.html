@@ -13,16 +13,18 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="vtuber.html">Vtubers</a>
-            <a href="about.html">Sobre</a>
         </nav>
     </header>
 
     <main id="app">
-        <a v-for="vtuber in vtubers_list" :href="'vtuber.html?vtuber=' + vtuber.id">
-            <div :style="{ 'background-image': `url(imgs/${vtuber.id}.png)`}">
-                <h1>{{vtuber.name}}</h1>
-            </div>
-        </a>
+        <h1>Vtubers Brasileiros</h1>
+        <article>
+            <a v-for="vtuber in vtubers_list" :href="'vtuber.html?vtuber=' + vtuber.id">
+                <div :style="{ 'background-image': `url(imgs/${vtuber.id}.png)`}">
+                    <h1>{{vtuber.name}}</h1>
+                </div>
+            </a>
+        </article>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@3.2.47/dist/vue.global.js"></script>
