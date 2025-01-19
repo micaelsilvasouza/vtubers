@@ -12,7 +12,7 @@
     <header>
         <nav>
             <a href="index.html">Home</a>
-            <a href="vtuber.html">Vtubers</a>
+            <a href="vtubers.html">Vtubers</a>
         </nav>
     </header>
 
@@ -20,7 +20,7 @@
         <h1>Vtubers Brasileiros</h1>
         <article>
             <a v-for="vtuber in vtubers_list" :href="'vtuber.html?vtuber=' + vtuber.id">
-                <div :style="{ 'background-image': `url(imgs/${vtuber.id}.png)`}">
+                <div :style="{ 'background-image': `url(imgs/small-${vtuber.id}.png)`}">
                     <h1>{{vtuber.name}}</h1>
                 </div>
             </a>
