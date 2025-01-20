@@ -1,64 +1,88 @@
 section{
-    text-align: center;
-}
-
-section div{
-    padding: 20px 0px;
-}
-
-section:first-of-type{
-    display: flex;
-    background-image: url(../imgs/image-exemple.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right center;
-}
-
-section:first-of-type div{
-    background-color: #000000f2;
-    color: white;
-    height: 100%;
-    width: 40dvw;
-    padding: 30px 0px;
-}
-
-section h1{
-    font-size: 2em;
     padding: 20px;
 }
 
-section p{
-    font-size: 1em;
+div{
+    width: 100%;
     padding: 10px;
 }
 
-section img{
-    width: 150px;
+img{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px #00000080;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    margin: 10px auto;
+}
+
+div.links-vtuber{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.links-vtuber a{
+    display: inline;
+    margin: 5px;
+}
+
+button{
+    transition: .3s;
+    cursor: pointer;
+    border: 1px solid var(--gray);
+    box-shadow: 2px 2px 3px #00000080;
+}
+
+.bt-vtuber{
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    border-color: var(--dark);
     border-radius: 50%;
 }
 
-section a{
-    color: #000000f2;
+.bt-vtuber:hover{
+    border-color: var(--gray);
 }
 
-section a:hover{
-    color: #000000c2;
-}
-
-section a.bt-link{
-    display: block;
-    background-color: #000000f2;
-    color: white;
+.bt-link{
+    background-color: var(--dark);
+    color: var(--white);
+    font-size: 1.1em;
     text-decoration: none;
-    width: 80%;
-    max-width: 400px;
+    width: 200px;
     padding: 10px;
-    margin: 20px auto;
-    border-radius: 20px;
-    transition-duration: .3s;
+    border-color: var(--gray);
+    border-radius: 50px;
 }
 
+.bt-link:hover{
+    background-color: var(--gray);
+    color: var(--dark);
+    border-color: var(--dark);
+    scale: 1.02;
+}
 
-section a.bt-link:hover{
-    background-color: #000000c2;
+#bt-toshiruz{
+    background-image: url(../imgs/small-toshiruz.png);
+}
+
+#bt-dantewill{
+    background-image: url(../imgs/small-dantewill.png);
+}
+
+#bt-eeiris{
+    background-image: url(../imgs/small-eeiris.png);
+}
+
+#bt-mii-reis{
+    background-image: url(../imgs/small-mii-reis.png);
 }

@@ -6,17 +6,24 @@
     text-align: center;
 }
 
+:root{
+    --dark: #000000f1;
+    --white: white;
+    --gray: #dfdfdf;
+}
+
 body{
-    background-color: white;
+    background-color: var(--white);
 }
 
 header{
-    background-color: #000000f1;
+    background-color: var(--dark);
     text-align: center;
     padding: 10px;
 }
 
 header a{
+    display: inline;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
@@ -25,10 +32,25 @@ header a{
 }
 
 header a:hover{
-    color: gray;
+    color: var(--gray);
+}
+
+main{
+    min-height: calc(100dvh - 120px) ;
+}
+
+h1, p{
+    padding: 5px;
 }
 
 p{
     font-size: 1.3em;
-    font-weight: 700px;
+    font-weight: 300;
+}
+
+footer{
+    background-color: var(--dark);
+    color: var(--white);
+    font-size: 0.8em;
+    padding: 10px;
 }

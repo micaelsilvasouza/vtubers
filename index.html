@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/mq-index.css">
     <title>Vtubers Brasileiros</title>
 </head>
 <body>
@@ -22,17 +21,40 @@
                 <h1>Sabe o que são Vtubers?</h1>
                 <p>São criadores de conteúdo online que usam avatares virtuais para produzir vídeos e fazer transmissões ao vivo. Podendo ser encontrados em plataformas de streaming como o YouTube e a Twitch. Eles interagem com o público, fazem entrevistas, gravam covers e jogam.</p>
             </div>
+            <img src="imgs/image-exemple.jpg" alt="Um modelo desenhado de uma garota vestindo uniforme escolar, em um quarto rosa.">
         </section>
         <section>
             <div>
-                <img src="imgs/person-exemple.png" alt="Desenho de uma garota de cabelos prateados, com um uniforme escolar">
                 <p>Apresentamos uma seleção de alguns Vtubers, que fazer seus conteudos aqui no Brasil</p>
+                <div class="links-vtuber">
+                    <a href="vtuber.html?vtuber=toshiruz">
+                        <button id="bt-toshiruz" class="bt-vtuber" type="button" title="Link para a página do Toshiruz"></button>
+                    </a>
+                    <a href="vtuber.html?vtuber=dantewill">
+                        <button id="bt-dantewill" class="bt-vtuber" type="button" title="Link para a página do DanteWill"></button>
+                    </a>
+                    <a href="vtuber.html?vtuber=eeiris">
+                        <button id="bt-eeiris" class="bt-vtuber" type="button" title="Link para a página do Reiris"></button>
+                    </a>
+                    <a href="vtuber.html?vtuber=mii-reis">
+                        <button id="bt-mii-reis" class="bt-vtuber" type="button" title="Link para a página do Mii Reis"></button>
+                    </a>
+                </div>
+                <a href="vtubers.html">
+                    <button class="bt-link" type="button" title="Link para a página de vtubers">
+                        Conheca os Vtubers Brasileiros
+                    </button>
+                </a>
             </div>
-            <a class="bt-link" href="vtubers.html">Conheça os Vtubers Brasileiros</a>
-        </section>
-        <section>
-                <p>Caso queira dar alguma dica ou informa sobre algum vtuber que não está na lista, entre em contato conosco, enviando um email para: <em>micaelsouza22silva@gmail.com</em></p>
         </section>
     </main>
+    <footer>
+            <p>Caso queira dar alguma dica ou informa sobre algum vtuber que não está na lista, entre em contato conosco, enviando um email para: <em>micaelsouza22silva@gmail.com</em></p>
+            <p>&copy;Micael Silva <span id="ano">2025</span></p>
+    </footer>
+
+    <script>
+        document.querySelector("#ano").textContent = (new Date()).getFullYear()
+    </script>
 </body>
 </html>
