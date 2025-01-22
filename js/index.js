@@ -171,6 +171,7 @@ var vtubers = {
         "description": "Shima Haruko é uma Vampira Crente, sonhando, desde pequena, em poder colocar um sorriso no rosto das pessoas, e trabalhando sempre pra poder torná-lo realidade!!",
         "links": {
             "youtube": "https://www.youtube.com/@harukoshima",
+            "twitch": "https://www.twitch.tv/harukoshima",
             "x": "https://x.com/ShimaHaruko",
             "instagram": "https://www.instagram.com/harukoshima_/"
         },
