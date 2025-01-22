@@ -107,3 +107,13 @@ article.jesse-llun{
 article.jesse-llun > div{
     background-color: #2565D1;
 }
+
+/*Estilo para quando a página for exibir aa vtuber Jesse Llun*/
+
+article.haruko-shima{
+    background-image: linear-gradient(to bottom, #56B3AE, #ADEBE4);
+}
+
+article.haruko-shima > div{
+    background-color: #5ECEC9;
+}

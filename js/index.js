@@ -157,10 +157,23 @@ var vtubers = {
         "description": "Uma estrela mágica que ganhou vida de um desejo, e veio pra terra transformar os desejos das pessoas em realidade, e ajudar a aliviar o peso da solidão da vida.",
         "links":{
             "youtube": "https://www.youtube.com/@JesseLlum",
+            "twitch": "https://www.twitch.tv/jessellum",
             "x": "https://x.com/JesseLlum",
             "instagram": "https://www.instagram.com/jessellum/",
             "tiktok": "https://www.tiktok.com/@jessellum"
         },
         "video": "https://www.youtube.com/embed/KCkaZ_r9AKE?si=lLu7pdHQlvakyKUX"
+    },
+
+    "haruko-shima":{
+        "id": "haruko-shima",
+        "name": "Haruko Shima",
+        "description": "Shima Haruko é uma Vampira Crente, sonhando, desde pequena, em poder colocar um sorriso no rosto das pessoas, e trabalhando sempre pra poder torná-lo realidade!!",
+        "links": {
+            "youtube": "https://www.youtube.com/@harukoshima",
+            "x": "https://x.com/ShimaHaruko",
+            "instagram": "https://www.instagram.com/harukoshima_/"
+        },
+        "video": "https://www.youtube.com/embed/x_TI-FxKvoM?si=TSzRTc2bDFj7_MxK"
     }
 }
