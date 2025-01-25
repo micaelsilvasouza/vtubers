@@ -38,6 +38,16 @@ article.mii-reis > div{
     background-color: #D8558E;
 }
 
+/*Estilo para quando a página for exibir a vtuber Haruko shima*/
+
+article.haruko-shima{
+    background-image: linear-gradient(to bottom, #56B3AE, #ADEBE4);
+}
+
+article.haruko-shima > div{
+    background-color: #5ECEC9;
+}
+
 /*Estilo para quando a página for exibir o vtuber Raviel karin*/
 
 article.raviel-karin{
@@ -108,12 +118,12 @@ article.jesse-llun > div{
     background-color: #2565D1;
 }
 
-/*Estilo para quando a página for exibir aa vtuber Jesse Llun*/
+/*Estilo para quando a página for exibir o vtuber Yamada*/
 
-article.haruko-shima{
-    background-image: linear-gradient(to bottom, #56B3AE, #ADEBE4);
+article.yanmada{
+    background-image: linear-gradient(to bottom, #30323F, #455464);
 }
 
-article.haruko-shima > div{
-    background-color: #5ECEC9;
+article.yanmada > div{
+    background-color: #44444e;
 }

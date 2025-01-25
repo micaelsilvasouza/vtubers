@@ -55,6 +55,19 @@
         "video": "https://www.youtube.com/embed/Dho3MsiQuI0?si=ijxURzsZyeafXCtN"
     }, 
 
+    "haruko-shima":{
+        "id": "haruko-shima",
+        "name": "Haruko Shima",
+        "description": "Shima Haruko é uma Vampira Crente, sonhando, desde pequena, em poder colocar um sorriso no rosto das pessoas, e trabalhando sempre pra poder torná-lo realidade!!",
+        "links": {
+            "youtube": "https://www.youtube.com/@harukoshima",
+            "twitch": "https://www.twitch.tv/harukoshima",
+            "x": "https://x.com/ShimaHaruko",
+            "instagram": "https://www.instagram.com/harukoshima_/"
+        },
+        "video": "https://www.youtube.com/embed/x_TI-FxKvoM?si=TSzRTc2bDFj7_MxK"
+    },
+
     "raviel-karin": {
         "id": "raviel-karin",
         "name": "Raviel Karin",
@@ -165,16 +178,14 @@
         "video": "https://www.youtube.com/embed/KCkaZ_r9AKE?si=lLu7pdHQlvakyKUX"
     },
 
-    "haruko-shima":{
-        "id": "haruko-shima",
-        "name": "Haruko Shima",
-        "description": "Shima Haruko é uma Vampira Crente, sonhando, desde pequena, em poder colocar um sorriso no rosto das pessoas, e trabalhando sempre pra poder torná-lo realidade!!",
+    "yanmada": {
+        "id": "yanmada",
+        "name": "Yanmada",
+        "description": "Olá, eu sou Yanmada e se você quiser, posso ser o seu herói!",
         "links": {
-            "youtube": "https://www.youtube.com/@harukoshima",
-            "twitch": "https://www.twitch.tv/harukoshima",
-            "x": "https://x.com/ShimaHaruko",
-            "instagram": "https://www.instagram.com/harukoshima_/"
+            "youtube": "https://www.youtube.com/@YanmadaV",
+            "x": "https://x.com/YanmadaV"
         },
-        "video": "https://www.youtube.com/embed/x_TI-FxKvoM?si=TSzRTc2bDFj7_MxK"
+        "video": "https://www.youtube.com/embed/fT57OJahLGM?si=cISu6LziOTzm1Fsd"
     }
 }
