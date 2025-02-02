@@ -187,5 +187,17 @@ var vtubers = {
             "x": "https://x.com/YanmadaV"
         },
         "video": "https://www.youtube.com/embed/fT57OJahLGM?si=cISu6LziOTzm1Fsd"
+    },
+
+    "skey": {
+        "id": "skey",
+        "name": "Skey",
+        "description":"Um Vampiro Maestro, que nasceu da Música... e se diz francês",
+        "links":{
+            "youtube": "https://www.youtube.com/@SkeyMorreau",
+            "x": "https://x.com/skeyzito",
+            "instagram": "https://www.instagram.com/skeyzito/"
+        },
+        "video":"https://www.youtube.com/embed/yReudirvZs4?si=U7SVj9tbfKc051eM"
     }
 }

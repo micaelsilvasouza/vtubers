@@ -127,3 +127,13 @@ article.yanmada{
 article.yanmada > div{
     background-color: #44444e;
 }
+
+/*Estilo para quando a página for exibir o vtuber Skey*/
+
+article.skey{
+    background-image: linear-gradient(to bottom, #4B141F, #96202C);
+}
+
+article.skey > div{
+    background-color: #590212;
+}
