@@ -147,3 +147,13 @@ article.lightwuz{
 article.lightwuz > div{
     background-color: #4214A6;
 }
+
+/*Estilo para quando a página for exibir o vtuber Pricernot*/
+
+article.pricernot{
+    background-image: linear-gradient(to bottom, #1C1B20, #46454B);
+}
+
+article.pricernot > div{
+    background-color: #121116;
+}

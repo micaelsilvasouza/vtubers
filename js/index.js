@@ -212,5 +212,17 @@ var vtubers = {
             "tiktok": "https://www.tiktok.com/@lightwuz_"
         },
         "video": "https://www.youtube.com/embed/__HT70Xx_7s?si=LGTyrMfVyNz49heF"
+    },
+
+    "pricernot": {
+        "id": "pricernot",
+        "name": "Pricernot",
+        "description": "Filho de Kronos, que descobriu que o amor que sente será arrando dele, e é banido para terra. Por tentar salvar aqueles que ama, descobre que a escuridão que tenta evitar, pode surgir dele mesmo.",
+        "links": {
+            "youtube": "https://www.youtube.com/@Pricernot/",
+            "twitch": "https://www.twitch.tv/pricernot",
+            "x": "https://x.com/Pricernot"
+        },
+        "video": "https://www.youtube.com/embed/b6hlfNqCxYA?si=QuHbMDUrmynR-LIj"
     }
 }
