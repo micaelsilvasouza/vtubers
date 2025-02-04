@@ -137,3 +137,13 @@ article.skey{
 article.skey > div{
     background-color: #590212;
 }
+
+/*Estilo para quando a página for exibir o vtuber Lightwuz*/
+
+article.lightwuz{
+    background-image: linear-gradient(to bottom, #1D0C59, #7216F2);
+}
+
+article.lightwuz > div{
+    background-color: #4214A6;
+}
