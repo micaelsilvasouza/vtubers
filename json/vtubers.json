@@ -224,5 +224,19 @@
             "x": "https://x.com/Pricernot"
         },
         "video": "https://www.youtube.com/embed/b6hlfNqCxYA?si=QuHbMDUrmynR-LIj"
+    },
+    
+    "pett-taniun": {
+        "id": "pett-taniun",
+        "name": "Pett Tâniun",
+        "description": "Após a morte da Rainha de Asra, sua mãe, causada por uma vilã que almeja dominar o reino, ele fica encarregado de assumir o reino, o que não agradou o seu irmão mais novo.",
+        "links": {
+            "youtube": "https://www.youtube.com/@Pett_Taniun",
+            "x": "https://x.com/Pett_Taniun",
+            "instagram": "https://www.instagram.com/pett_taniun/",
+            "tiktok": "https://www.tiktok.com/@pett_taniun"
+        },
+        
+        "video": "https://www.youtube.com/embed/ardPhFPc4gQ?si=wGxTBx4l3nSzQNRt"
     }
 }

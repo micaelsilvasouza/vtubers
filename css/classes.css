@@ -157,3 +157,13 @@ article.pricernot{
 article.pricernot > div{
     background-color: #121116;
 }
+
+/*Estilo para quando a página for exibir o vtuber Pett Tâniun*/
+
+article.pett-taniun{
+    background-image: linear-gradient(to bottom, #419BBF, #73BEE2);
+}
+
+article.pett-taniun > div{
+    background-color: #2B89AA;
+}
