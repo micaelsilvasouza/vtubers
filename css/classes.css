@@ -167,3 +167,13 @@ article.pett-taniun{
 article.pett-taniun > div{
     background-color: #2B89AA;
 }
+
+/*Estilo para quando a página for exibir o vtuber Biólogo Andy*/
+
+article.biologo-andy{
+    background-image: linear-gradient(to bottom, #0D3500, #154001);
+}
+
+article.biologo-andy > div{
+    background-color: #062601;
+}

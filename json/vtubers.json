@@ -238,5 +238,18 @@
         },
         
         "video": "https://www.youtube.com/embed/ardPhFPc4gQ?si=wGxTBx4l3nSzQNRt"
+    },
+    
+    "biologo-andy": {
+        "id": "biologo-andy",
+        "name": "Biólogo Andy",
+        "description": "Nascido com traços de uma onça-pintada e clorofila, o pigmento verde das plantas, e para descobrir mais sobre si mesmo, decidi criar seu laboratório de biologia, onde criar os mais diversos pets",
+        "links": {
+            "youtube": "https://www.youtube.com/@BiologAndy",
+            "x": "https://x.com/BiologAndy",
+            "instagram": "https://www.instagram.com/biologandy/",
+            "tiktok": "https://www.tiktok.com/@biologandy"
+        },
+        "video": "https://www.youtube.com/embed/Jc4DXOmQJ1c?si=X_Ze6fO6XmGB4ia_"
     }
 }
