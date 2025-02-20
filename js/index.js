@@ -250,5 +250,18 @@ var vtubers = {
             "tiktok": "https://www.tiktok.com/@biologandy"
         },
         "video": "https://www.youtube.com/embed/Jc4DXOmQJ1c?si=X_Ze6fO6XmGB4ia_"
+    },
+
+    "ace-chimera": {
+        "id": "ace-chimera",
+        "name": "Ace Chimera",
+        "description": "Principe morcego, sendo metade humano e metade morcego, tentando se tornar um Idol, que se sacrificou jovem, para conseguir vida eterna, o que faz sempre parecer jovem.",
+        "links": {
+            "youtube": "https://www.youtube.com/@AceChimera",
+            "x": "https://x.com/ace_chimera",
+            "instagram": "https://www.instagram.com/acechimera/",
+            "tiktok": "https://www.tiktok.com/@acechimera"
+        },
+        "video": "https://www.youtube.com/embed/83eSxb5K9HM?si=wLu55RlcDEBpckiN"
     }
 }

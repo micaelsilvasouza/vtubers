@@ -177,3 +177,13 @@ article.biologo-andy{
 article.biologo-andy > div{
     background-color: #062601;
 }
+
+/*Estilo para quando a página for exibir o vtuber Ace Chimera*/
+
+article.ace-chimera{
+    background-image: linear-gradient(to bottom, #5F0E28, #C13665);
+}
+
+article.ace-chimera > div{
+    background-color: #8F244C;
+}
